@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EADE061C1F744D2D005EB490 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADE061B1F744D2D005EB490 /* AppDelegate.swift */; };
+		EADE061E1F744D2D005EB490 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADE061D1F744D2D005EB490 /* ViewController.swift */; };
+		EADE06211F744D2D005EB490 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EADE061F1F744D2D005EB490 /* Main.storyboard */; };
+		EADE06231F744D2D005EB490 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EADE06221F744D2D005EB490 /* Assets.xcassets */; };
+		EADE06261F744D2D005EB490 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EADE06241F744D2D005EB490 /* LaunchScreen.storyboard */; };
+		EADE06311F744D2D005EB490 /* Kac_TuttuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADE06301F744D2D005EB490 /* Kac_TuttuTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EADE062D1F744D2D005EB490 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EADE06101F744D2C005EB490 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EADE06171F744D2C005EB490;
+			remoteInfo = "Kac Tuttu";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EADE06181F744D2D005EB490 /* Kac Tuttu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kac Tuttu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EADE061B1F744D2D005EB490 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EADE061D1F744D2D005EB490 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EADE06201F744D2D005EB490 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EADE06221F744D2D005EB490 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EADE06251F744D2D005EB490 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EADE06271F744D2D005EB490 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EADE062C1F744D2D005EB490 /* Kac TuttuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kac TuttuTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EADE06301F744D2D005EB490 /* Kac_TuttuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kac_TuttuTests.swift; sourceTree = "<group>"; };
+		EADE06321F744D2D005EB490 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EADE06151F744D2C005EB490 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EADE06291F744D2D005EB490 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EADE060F1F744D2C005EB490 = {
+			isa = PBXGroup;
+			children = (
+				EADE061A1F744D2D005EB490 /* Kac Tuttu */,
+				EADE062F1F744D2D005EB490 /* Kac TuttuTests */,
+				EADE06191F744D2D005EB490 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EADE06191F744D2D005EB490 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EADE06181F744D2D005EB490 /* Kac Tuttu.app */,
+				EADE062C1F744D2D005EB490 /* Kac TuttuTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EADE061A1F744D2D005EB490 /* Kac Tuttu */ = {
+			isa = PBXGroup;
+			children = (
+				EADE061B1F744D2D005EB490 /* AppDelegate.swift */,
+				EADE061D1F744D2D005EB490 /* ViewController.swift */,
+				EADE061F1F744D2D005EB490 /* Main.storyboard */,
+				EADE06221F744D2D005EB490 /* Assets.xcassets */,
+				EADE06241F744D2D005EB490 /* LaunchScreen.storyboard */,
+				EADE06271F744D2D005EB490 /* Info.plist */,
+			);
+			path = "Kac Tuttu";
+			sourceTree = "<group>";
+		};
+		EADE062F1F744D2D005EB490 /* Kac TuttuTests */ = {
+			isa = PBXGroup;
+			children = (
+				EADE06301F744D2D005EB490 /* Kac_TuttuTests.swift */,
+				EADE06321F744D2D005EB490 /* Info.plist */,
+			);
+			path = "Kac TuttuTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EADE06171F744D2C005EB490 /* Kac Tuttu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EADE06351F744D2D005EB490 /* Build configuration list for PBXNativeTarget "Kac Tuttu" */;
+			buildPhases = (
+				EADE06141F744D2C005EB490 /* Sources */,
+				EADE06151F744D2C005EB490 /* Frameworks */,
+				EADE06161F744D2C005EB490 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kac Tuttu";
+			productName = "Kac Tuttu";
+			productReference = EADE06181F744D2D005EB490 /* Kac Tuttu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EADE062B1F744D2D005EB490 /* Kac TuttuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EADE06381F744D2D005EB490 /* Build configuration list for PBXNativeTarget "Kac TuttuTests" */;
+			buildPhases = (
+				EADE06281F744D2D005EB490 /* Sources */,
+				EADE06291F744D2D005EB490 /* Frameworks */,
+				EADE062A1F744D2D005EB490 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EADE062E1F744D2D005EB490 /* PBXTargetDependency */,
+			);
+			name = "Kac TuttuTests";
+			productName = "Kac TuttuTests";
+			productReference = EADE062C1F744D2D005EB490 /* Kac TuttuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EADE06101F744D2C005EB490 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = ergin;
+				TargetAttributes = {
+					EADE06171F744D2C005EB490 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = A5PJMB2HCM;
+						ProvisioningStyle = Automatic;
+					};
+					EADE062B1F744D2D005EB490 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = A5PJMB2HCM;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EADE06171F744D2C005EB490;
+					};
+				};
+			};
+			buildConfigurationList = EADE06131F744D2C005EB490 /* Build configuration list for PBXProject "Kac Tuttu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EADE060F1F744D2C005EB490;
+			productRefGroup = EADE06191F744D2D005EB490 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EADE06171F744D2C005EB490 /* Kac Tuttu */,
+				EADE062B1F744D2D005EB490 /* Kac TuttuTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EADE06161F744D2C005EB490 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EADE06261F744D2D005EB490 /* LaunchScreen.storyboard in Resources */,
+				EADE06231F744D2D005EB490 /* Assets.xcassets in Resources */,
+				EADE06211F744D2D005EB490 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EADE062A1F744D2D005EB490 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EADE06141F744D2C005EB490 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EADE061E1F744D2D005EB490 /* ViewController.swift in Sources */,
+				EADE061C1F744D2D005EB490 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EADE06281F744D2D005EB490 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EADE06311F744D2D005EB490 /* Kac_TuttuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EADE062E1F744D2D005EB490 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EADE06171F744D2C005EB490 /* Kac Tuttu */;
+			targetProxy = EADE062D1F744D2D005EB490 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EADE061F1F744D2D005EB490 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EADE06201F744D2D005EB490 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EADE06241F744D2D005EB490 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EADE06251F744D2D005EB490 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EADE06331F744D2D005EB490 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EADE06341F744D2D005EB490 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EADE06361F744D2D005EB490 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A5PJMB2HCM;
+				INFOPLIST_FILE = "Kac Tuttu/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ev.Kac-Tuttu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EADE06371F744D2D005EB490 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A5PJMB2HCM;
+				INFOPLIST_FILE = "Kac Tuttu/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ev.Kac-Tuttu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EADE06391F744D2D005EB490 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A5PJMB2HCM;
+				INFOPLIST_FILE = "Kac TuttuTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ev.Kac-TuttuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kac Tuttu.app/Kac Tuttu";
+			};
+			name = Debug;
+		};
+		EADE063A1F744D2D005EB490 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A5PJMB2HCM;
+				INFOPLIST_FILE = "Kac TuttuTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ev.Kac-TuttuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kac Tuttu.app/Kac Tuttu";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EADE06131F744D2C005EB490 /* Build configuration list for PBXProject "Kac Tuttu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EADE06331F744D2D005EB490 /* Debug */,
+				EADE06341F744D2D005EB490 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EADE06351F744D2D005EB490 /* Build configuration list for PBXNativeTarget "Kac Tuttu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EADE06361F744D2D005EB490 /* Debug */,
+				EADE06371F744D2D005EB490 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EADE06381F744D2D005EB490 /* Build configuration list for PBXNativeTarget "Kac TuttuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EADE06391F744D2D005EB490 /* Debug */,
+				EADE063A1F744D2D005EB490 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EADE06101F744D2C005EB490 /* Project object */;
+}
