@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84372EC128E0B305ACEBC316 /* Pods_Kac_Tuttu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 924B0CDE7C150F74CC40BDE0 /* Pods_Kac_Tuttu.framework */; };
 		EADE061C1F744D2D005EB490 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADE061B1F744D2D005EB490 /* AppDelegate.swift */; };
 		EADE061E1F744D2D005EB490 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADE061D1F744D2D005EB490 /* ViewController.swift */; };
 		EADE06211F744D2D005EB490 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EADE061F1F744D2D005EB490 /* Main.storyboard */; };
 		EADE06231F744D2D005EB490 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EADE06221F744D2D005EB490 /* Assets.xcassets */; };
 		EADE06261F744D2D005EB490 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EADE06241F744D2D005EB490 /* LaunchScreen.storyboard */; };
 		EADE06311F744D2D005EB490 /* Kac_TuttuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADE06301F744D2D005EB490 /* Kac_TuttuTests.swift */; };
+		EADE063C1F7454C5005EB490 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EADE063B1F7454C5005EB490 /* libz.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4ABF249F7C67AFB1B231D333 /* Pods-Kac Tuttu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kac Tuttu.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kac Tuttu/Pods-Kac Tuttu.release.xcconfig"; sourceTree = "<group>"; };
+		924B0CDE7C150F74CC40BDE0 /* Pods_Kac_Tuttu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kac_Tuttu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EADE06181F744D2D005EB490 /* Kac Tuttu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kac Tuttu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EADE061B1F744D2D005EB490 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EADE061D1F744D2D005EB490 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +40,8 @@
 		EADE062C1F744D2D005EB490 /* Kac TuttuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kac TuttuTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EADE06301F744D2D005EB490 /* Kac_TuttuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kac_TuttuTests.swift; sourceTree = "<group>"; };
 		EADE06321F744D2D005EB490 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EADE063B1F7454C5005EB490 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		FBB03F56D632466A66EF2139 /* Pods-Kac Tuttu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kac Tuttu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kac Tuttu/Pods-Kac Tuttu.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +49,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EADE063C1F7454C5005EB490 /* libz.tbd in Frameworks */,
+				84372EC128E0B305ACEBC316 /* Pods_Kac_Tuttu.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +64,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		32F13DC4EED915B0D29E51FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EADE063B1F7454C5005EB490 /* libz.tbd */,
+				924B0CDE7C150F74CC40BDE0 /* Pods_Kac_Tuttu.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		535ADDDBD5147F501263261B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FBB03F56D632466A66EF2139 /* Pods-Kac Tuttu.debug.xcconfig */,
+				4ABF249F7C67AFB1B231D333 /* Pods-Kac Tuttu.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EADE060F1F744D2C005EB490 = {
 			isa = PBXGroup;
 			children = (
 				EADE061A1F744D2D005EB490 /* Kac Tuttu */,
 				EADE062F1F744D2D005EB490 /* Kac TuttuTests */,
 				EADE06191F744D2D005EB490 /* Products */,
+				535ADDDBD5147F501263261B /* Pods */,
+				32F13DC4EED915B0D29E51FF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +105,9 @@
 		EADE061A1F744D2D005EB490 /* Kac Tuttu */ = {
 			isa = PBXGroup;
 			children = (
-				EADE061B1F744D2D005EB490 /* AppDelegate.swift */,
-				EADE061D1F744D2D005EB490 /* ViewController.swift */,
 				EADE061F1F744D2D005EB490 /* Main.storyboard */,
-				EADE06221F744D2D005EB490 /* Assets.xcassets */,
-				EADE06241F744D2D005EB490 /* LaunchScreen.storyboard */,
-				EADE06271F744D2D005EB490 /* Info.plist */,
+				EADE061D1F744D2D005EB490 /* ViewController.swift */,
+				EADE063F1F762B90005EB490 /* Supporting Files */,
 			);
 			path = "Kac Tuttu";
 			sourceTree = "<group>";
@@ -96,6 +121,17 @@
 			path = "Kac TuttuTests";
 			sourceTree = "<group>";
 		};
+		EADE063F1F762B90005EB490 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EADE061B1F744D2D005EB490 /* AppDelegate.swift */,
+				EADE06221F744D2D005EB490 /* Assets.xcassets */,
+				EADE06241F744D2D005EB490 /* LaunchScreen.storyboard */,
+				EADE06271F744D2D005EB490 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +139,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EADE06351F744D2D005EB490 /* Build configuration list for PBXNativeTarget "Kac Tuttu" */;
 			buildPhases = (
+				C3989263C3517C6253ABCB92 /* [CP] Check Pods Manifest.lock */,
 				EADE06141F744D2C005EB490 /* Sources */,
 				EADE06151F744D2C005EB490 /* Frameworks */,
 				EADE06161F744D2C005EB490 /* Resources */,
+				28BFC1899A49ECC096A062CA /* [CP] Embed Pods Frameworks */,
+				C58C54F88AA58B2E6E2B1862 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,6 +235,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		28BFC1899A49ECC096A062CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kac Tuttu/Pods-Kac Tuttu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3989263C3517C6253ABCB92 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C58C54F88AA58B2E6E2B1862 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kac Tuttu/Pods-Kac Tuttu-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EADE06141F744D2C005EB490 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -269,6 +356,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -319,6 +407,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -339,6 +428,7 @@
 		};
 		EADE06361F744D2D005EB490 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBB03F56D632466A66EF2139 /* Pods-Kac Tuttu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = A5PJMB2HCM;
@@ -352,6 +442,7 @@
 		};
 		EADE06371F744D2D005EB490 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ABF249F7C67AFB1B231D333 /* Pods-Kac Tuttu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = A5PJMB2HCM;
@@ -412,6 +503,7 @@
 				EADE06371F744D2D005EB490 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EADE06381F744D2D005EB490 /* Build configuration list for PBXNativeTarget "Kac TuttuTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +512,7 @@
 				EADE063A1F744D2D005EB490 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

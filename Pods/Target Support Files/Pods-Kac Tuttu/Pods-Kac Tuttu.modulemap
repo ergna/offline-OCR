@@ -1,0 +1,6 @@
+framework module Pods_Kac_Tuttu {
+  umbrella header "Pods-Kac Tuttu-umbrella.h"
+
+  export *
+  module * { export * }
+}
